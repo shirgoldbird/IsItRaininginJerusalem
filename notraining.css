@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    padding-top: 140px;
+    background-color: #E0E5FF;
+}
+
+#israining {
+    font-weight: bold;
+    font-size: 120pt;
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}

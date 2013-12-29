@@ -2,7 +2,7 @@
 
 #workaround to install new packages without being root
 import sys
-sys.path.append('/home/username/py_libs/')
+sys.path.append('/home/shevadas/py_libs/')
 
 import web
 import requests
@@ -28,9 +28,11 @@ class index:
 	    degrees = conditions.getAttribute('temp')
             if weathercode in raincodes:
                 israining = "YES"
+		css = "raining.css"
             else:
                 israining = "NO"
-            return render.index(israining, currweather, degrees)
+		css = "notraining.css"
+            return render.index(israining, currweather, degrees, css)
         else:
             return "Error fetching weather data. Try again later."
 
