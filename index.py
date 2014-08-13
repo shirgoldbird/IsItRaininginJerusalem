@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
 #workaround to install new packages without being root
-import sys
-sys.path.append('/home/shevadas/py_libs/')
+#left for historical purposes
+#import sys
+#sys.path.append('/home/user/py_libs/')
 
 import web
 import requests
