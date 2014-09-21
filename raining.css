@@ -1,7 +1,9 @@
 body {
     text-align: center;
     padding-top: 140px;
-    background-color: #E1E2E8;
+ //   background-color: #E1E2E8;
+    background: url(rain.png);
+    font-family: Arial, sans-serif;
 }
 
 #israining {
@@ -11,6 +13,6 @@ body {
     color: black;
 }
 
-p {
-    font-family: Arial, sans-serif;
+span {
+    font-size: smaller;
 }

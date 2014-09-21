@@ -2,6 +2,7 @@ body {
     text-align: center;
     padding-top: 140px;
     background-color: #E0E5FF;
+    font-family: Arial, sans-serif;
 }
 
 #israining {
@@ -11,6 +12,7 @@ body {
     color: black;
 }
 
-p {
-    font-family: Arial, sans-serif;
+span {
+    font-size: smaller;
 }
+

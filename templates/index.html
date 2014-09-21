@@ -5,11 +5,12 @@ $def with (israining, currweather, degrees, css)
   <title>Is It Raining in Jerusalem?</title> 
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="$css" />
+  <!-- Rain pattern from http://www.patterncooler.com/ -->
 </head> 
 
-<body style="text-align: center; padding-top: 140px;">
-<p style="font-weight: bold; font-size: 120pt; font-family: Arial,sans-serif; text-decoration: none; color: black;"><a href="http://weather.yahoo.com/israel/yerushalayim/jerusalem-1968222/">$israining</a></p> 
-<p style="font-family: Arial,sans-serif;"><span style="font-size: smaller;"> Current Weather: $currweather & $degrees F </br>
-<a href="https://github.com/ShevaDas/IsItRaininginJerusalem">Source</a> | <a href="http://www.shevagoldberg.com/is-it-raining-in-jerusalem/">About</a></span> </span></p> 
+<body>
+<p id="israining"><a href="http://weather.yahoo.com/israel/yerushalayim/jerusalem-1968222/">$israining</a></p> 
+<p><span> Current Weather: $currweather & $degrees F </br>
+<a href="https://github.com/ShevaDas/IsItRaininginJerusalem">Source</a> | <a href="http://isitraininginjerusalem.shevagoldberg.com/about.html">About</a></span> </span></p> 
 </body>
 </html>

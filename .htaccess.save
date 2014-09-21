@@ -4,11 +4,8 @@ DirectoryIndex index.py/
 <IfModule mod_rewrite.c>
   RewriteEngine on
   RewriteBase /
-  RewriteCond %{REQUEST_URI} !^/icons
-  RewriteCond %{REQUEST_URI} !^/favicon.ico$
+	 RewriteCond %{REQUEST_URI} !^/favicon.ico$
   RewriteCond %{REQUEST_URI} !^/static/(.*)$
   RewriteCond %{REQUEST_URI} !^(/.*)+index.py/
-  RewriteCond %{REQUEST_URI} !^/notraining.css$
-  RewriteCond %{REQUEST_URI} !^/raining.css$
   RewriteRule ^(.*)$ /index.py/$1 [PT]
 </IfModule>
